@@ -1,0 +1,2 @@
+package1
+-DCATKIN_DEVEL_PREFIX=/home/jakub/pythonopencv/devel -DCMAKE_INSTALL_PREFIX=/home/jakub/pythonopencv/install -G Unix Makefiles
