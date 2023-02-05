@@ -7,4 +7,9 @@
 # new environment variables
 
 # modified environment variables
+export CMAKE_PREFIX_PATH="/home/jakub/pythonopencv/devel:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/jakub/pythonopencv/devel/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/jakub/pythonopencv/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/home/jakub/pythonopencv/build'
+export ROSLISP_PACKAGE_DIRECTORIES='/home/jakub/pythonopencv/devel/share/common-lisp'
+export ROS_PACKAGE_PATH="/home/jakub/pythonopencv/src:$ROS_PACKAGE_PATH"

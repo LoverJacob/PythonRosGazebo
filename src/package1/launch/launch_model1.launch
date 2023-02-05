@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+    <param name="robocik" command= "cat '$(find package1)/models_urdf/model1/model.sdf'" />
+
+    <node name="robocik powstaje" pkg="gazebo_ros" type="spawn_model" output="screen" args="-sdf -param robocik -model m2wr" />
+
+</launch>
